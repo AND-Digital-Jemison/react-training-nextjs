@@ -11,12 +11,6 @@ export const Launches: NextPage<{ launches: Launch[] }> = ({ launches }) => {
 
   return (
     <div className={styles.container}>
-      <Head>
-        <title>SpaceX GraphQL demo</title>
-        <meta name='description' content='A demo application to show how GraphQL and NextJS can be used together' />
-        <link rel='icon' href='/favicon.ico' />
-      </Head> 
-
       <main className={styles.main}>
         <PageTitle
           title='View the upcoming SpaceX launches and information about them'
