@@ -1,4 +1,3 @@
-import Head from 'next/head';
 import { LaunchMission, Stack } from '../../components';
 import { client } from '../../lib';
 import { gql } from '@apollo/client';
