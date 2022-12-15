@@ -1,5 +1,5 @@
 import { LaunchMission, Stack } from '../../components';
-import { client } from '../../lib';
+import { apolloClient } from '../../lib';
 import { gql } from '@apollo/client';
 import styles from './Launches.module.scss';
 import { Launch } from '../../types';
@@ -30,7 +30,7 @@ export const Launches: NextPage<{ launches: Launch[] }> = ({ launches }) => {
 
 
 export const getStaticProps = async () => {
-  const { data }: { data: { launches: Launch[] } } = await client.query({
+  const { data }: { data: { launches: Launch[] } } = await apolloClient.query({
     query: gql`
       query Launches {
         launches {
