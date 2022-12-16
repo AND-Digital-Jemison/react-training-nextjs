@@ -1,14 +1,7 @@
 import '@testing-library/jest-dom';
 import { render, screen } from '@testing-library/react';
-import Launches from './';
-import { Launch } from '../../types';
-
-jest.mock('../../lib', () => ({
-  ...jest.requireActual('../../lib'),
-  apolloClient: {
-    query: jest.fn().mockResolvedValue({ data: { launches: [] } }),
-  },
-}));
+import Launches from '../../../pages/launches';
+import { Launch } from '../../../types';
 
 const mockLaunches: Launch[] = [
   {
