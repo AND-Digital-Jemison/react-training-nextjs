@@ -1,6 +1,5 @@
 import { render, screen } from '@testing-library/react';
 import { Stack } from './';
-import '@testing-library/jest-dom'
 
 describe('Stack', () => {
   it('should render children', () => {
