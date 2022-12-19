@@ -1,7 +1,6 @@
 import '@testing-library/jest-dom';
 import { render, screen } from '@testing-library/react';
 import Launches from '../../../pages/launches';
-import { Launch } from '../../../types';
 
 const mockLaunches: Launch[] = [
   {

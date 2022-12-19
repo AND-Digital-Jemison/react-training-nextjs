@@ -1,6 +1,5 @@
 import '@testing-library/jest-dom';
 import { render, screen } from '@testing-library/react';
-import { Launch } from '../../types';
 import { LaunchMission } from './LaunchMission';
 
 const mockLaunch: Launch = {

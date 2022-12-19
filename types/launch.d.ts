@@ -1,4 +1,4 @@
-export interface Launch {
+interface Launch {
   mission_name: string;
   rocket: {
     rocket_name: string;

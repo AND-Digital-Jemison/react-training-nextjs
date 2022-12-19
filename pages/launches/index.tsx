@@ -2,7 +2,6 @@ import { LaunchMission, Stack } from '../../components';
 import { apolloClient } from '../../lib';
 import { gql } from '@apollo/client';
 import styles from './Launches.module.scss';
-import { Launch } from '../../types';
 import type { NextPage } from 'next';
 import { PageTitle } from '../../components/PageTitle';
 

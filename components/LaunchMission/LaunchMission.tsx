@@ -1,6 +1,5 @@
 import styles from './LaunchMission.module.scss';
 import type { FC } from 'react';
-import { Launch } from '../../types';
 import { formatUTCDate } from '../../utils/dates';
 import { LaunchMissionSection } from './LaunchMissionSection';
 import { LaunchMissionTitle } from './LaunchMissionTitle';

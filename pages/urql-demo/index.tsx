@@ -1,6 +1,5 @@
 import type { NextPage } from 'next';
 import { LaunchMission, Stack } from '../../components';
-import { Launch } from '../../types';
 import { PageTitle } from '../../components/PageTitle';
 import { useQuery } from 'urql';
 import { urqlClient, ssrCache } from '../../lib/urqlClient';
